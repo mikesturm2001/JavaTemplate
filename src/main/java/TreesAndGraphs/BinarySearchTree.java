@@ -2,7 +2,7 @@ package TreesAndGraphs;
 
 public class BinarySearchTree {
 
-    private static class Node {
+    public static class Node {
         Node left, right;
         int data;
         public Node (int data) {
